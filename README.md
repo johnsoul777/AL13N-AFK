@@ -8,8 +8,8 @@ Put the licenses bypassed in config.lua
 
 ```lua
   licenseID = {
-    ["license:xxxxxxx"] = true, -- Your license
-    ["license:xxxxxxx"] = true, -- Your administrators license or user you want
+    ["license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"] = true, -- Your license
+    ["license:zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"] = true, -- Your administrators license or user you want
   },
 ```
 
