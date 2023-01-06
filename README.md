@@ -13,4 +13,6 @@ Put the licenses bypassed in config.lua
   },
 ```
 
+## Dependencies
+  · [ox_lib]: https://github.com/overextended/ox_lib
 ## Enjoy
