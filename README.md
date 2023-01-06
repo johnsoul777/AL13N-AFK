@@ -14,4 +14,3 @@ Put the licenses bypassed in config.lua
 ```
 
 ## Enjoy
-# AL13N-AFK
