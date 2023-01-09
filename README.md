@@ -9,7 +9,9 @@ Put the licenses bypassed in config.lua
 ```lua
   licenseID = {
     ["license:xxxxxxx"] = true, -- Your license
-    ["license:zzzzzzz"] = true, -- Your administrators license or user you want
+    ["license:zzzzzzz"] = true, -- More licenses
+    ["license:aaaaaaa"] = true, -- More licenses
+    ["license:bbbbbbb"] = true, -- More licenses
   },
 ```
 

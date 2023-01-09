@@ -1,20 +1,19 @@
-local time = 30
-local kickWarning = true
-
 Citizen.CreateThread(function()
+	local time = 30
+
 	while true do
 		Wait(1000)
 		local playerPed = PlayerPedId()
 		if playerPed then
-			CurrentPos = GetEntityCoords(playerPed, true)
+			local CurrentPos = GetEntityCoords(playerPed, true)
 			if CurrentPos == PrevPos then
 				if time > 0 then
-					if kickWarning and time <= 30 then
+					if Config.kickWarning and time <= 30 then
 						AFKNotification(time)
 					end
 					time = time - 1
 				else
-					TriggerServerEvent("AL13N-AFK:afk")
+					TriggerServerEvent("AL1ƎN-AFK:afk")
 				end
 			else
 				time = Config.timeAFK

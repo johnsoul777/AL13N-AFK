@@ -1,5 +1,6 @@
 Config = {
   timeAFK = 600, -- 10 minutes in seconds
+  kickWarning = true,
   licenseID = {
     ["license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"] = true, -- Your license
     ["license:zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"] = true, -- Your administrators license or user you want
