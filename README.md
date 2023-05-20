@@ -1,3 +1,5 @@
+![GitHub all releases](https://img.shields.io/github/downloads/johnsoul777/AL13N-AFK/total?color=blue&logo=Github&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/johnsoul777/AL13N-AFK?color=blue&style=for-the-badge)
 # AL13N-AFK
 
 I decided to create one AFK system with the Rockstar licensing system that also allows bypassing users you choose in your config.lua
@@ -17,7 +19,7 @@ Put the licenses bypassed in config.lua
 
 ## Dependencies
 
-- [ox_lib](https://github.com/overextended/ox_lib)
+[![ox_lib](https://img.shields.io/badge/github-ox__lib-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=grey)](https://github.com/overextended/ox_lib)
 
 #
 
